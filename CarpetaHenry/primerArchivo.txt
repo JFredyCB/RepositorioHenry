@@ -1,0 +1,13 @@
+SOLUCION
+
+git clone https://github.com/JFredyCB/RepositorioHenry.git
+cd RepositorioHenry/
+code . 
+mkdir "CarpetaHenry"
+cd CarpetaHenry/
+touch primerArchivo.txt
+git add primerArchivo.txt
+cd ..
+git add README.md 
+git commit -m "SOLUCION M02"
+git push origin main 
